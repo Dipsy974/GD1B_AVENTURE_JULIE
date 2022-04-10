@@ -595,7 +595,7 @@ class village_scene extends Phaser.Scene {
 
     //CHANGEMENT DE SCENE AVEC PARAMETRES ACTUELS
     changeScenetoForest(player, trigger){
-        if(player.hasBaton){
+        if(player.hasBaton || player.hasHache){
             this.scene.start("forest_scene", {
                 x : 4608, 
                 y : 4864, 
