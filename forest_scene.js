@@ -518,8 +518,7 @@ class forest_scene extends Phaser.Scene {
         });
 
 
-        this.hache = this.physics.add.sprite(500, 2100, 'hacheUI').setScale(0.5);
-        this.physics.add.collider(this.player, this.hache, this.obtainAxe, null, this);
+        
 
 
         this.beam = this.physics.add.sprite(1000, 500, 'beam').setScale(2.5).setDepth(5);
