@@ -41,7 +41,7 @@ class village_scene extends Phaser.Scene {
         this.load.spritesheet('coin', 'assets/coin_spritesheet.png',
             { frameWidth: 256, frameHeight: 256 });
 
-        this.load.image("TileSet", "tileset_v0_extruded.png");
+        this.load.image("TileSet", "assets/tileset_v0_extruded.png");
         
         this.load.tilemapTiledJSON("map", "carte.json");
         
