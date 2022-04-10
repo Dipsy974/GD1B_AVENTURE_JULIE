@@ -47,7 +47,7 @@ class forest_scene extends Phaser.Scene {
             { frameWidth: 256, frameHeight: 256 });
         
 
-        this.load.image("TileSet", "/tileset_v0_extruded.png");
+        this.load.image("TileSet", "tileset_v0_extruded.png");
         this.load.tilemapTiledJSON("forest_map", "forest_map.json")
 
         this.load.image('buche', 'assets/buche.png');

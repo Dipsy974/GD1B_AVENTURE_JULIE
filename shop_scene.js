@@ -33,7 +33,7 @@ class shop_scene extends Phaser.Scene {
         this.load.spritesheet('chara_run_unarmed', 'assets/chara_run_unarmed.png',
             { frameWidth: 256, frameHeight: 256 });
 
-        this.load.image("TileSet", "/tileset_v0_extruded.png");
+        this.load.image("TileSet", "tileset_v0_extruded.png");
         this.load.tilemapTiledJSON("shop_map", "epicerie_map.json");
         this.load.image('hitbox', 'assets/hitbox.png');
 
