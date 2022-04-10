@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="5" height="6" tilewidth="256" tileheight="256" infinite="0" nextlayerid="6" nextobjectid="1">
+ <editorsettings>
+  <export target="epicerie_map.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="tileset_v0" tilewidth="256" tileheight="256" tilecount="200" columns="10">
+  <image source="../Spritesheet_Tileset/tileset_v0.png" width="2560" height="5120"/>
+ </tileset>
+ <layer id="1" name="ground" width="5" height="6">
+  <data encoding="csv">
+68,68,68,68,68,
+68,68,68,68,68,
+68,68,68,68,68,
+68,68,68,68,68,
+68,68,68,68,68,
+0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="tapis" width="5" height="6" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,
+75,76,77,0,0,
+85,86,87,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="solid" width="5" height="6">
+  <data encoding="csv">
+69,70,69,70,69,
+144,145,146,147,0,
+0,0,0,157,0,
+0,0,0,167,0,
+0,0,0,177,44,
+69,0,69,69,69
+</data>
+ </layer>
+ <layer id="4" name="notCollide" width="5" height="6">
+  <data encoding="csv">
+0,0,0,0,0,
+168,165,166,0,0,
+154,155,156,0,0,
+0,0,0,164,0,
+0,0,0,177,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="intoVillage" width="5" height="6" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,68,0,0,0
+</data>
+ </layer>
+</map>
